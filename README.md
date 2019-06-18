@@ -1,3 +1,15 @@
+DEMO of a State Machine implemented with React/Redux
+View the video GoodFastCheap.webm to see it in action! (Ends with a wrong click)
+The sliders have to be clicked in a specific order (contains an infinite cycle)
+When the user makes a 'wrong' click the sliders all return to the initial 'off' state
+
+For windows users I have included convenient bat files which you can simply double click:
+'1Install.bat' (to save you opening a cmd window and typting npm install)
+and
+'2start.bat' (to save you opening a cmd window and typting npm install)
+
+-----------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
