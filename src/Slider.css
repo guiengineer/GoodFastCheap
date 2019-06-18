@@ -1,0 +1,59 @@
+:local(.slider) {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+	display: block;
+}
+
+:local(.label) {
+	position: auto;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+	font-size: 50px;
+}
+
+:local(.slider_div){
+  background: white;
+  display: inline-block;
+  margin: 0;
+}
+
+:local(.circle) {
+  position: relative;
+  left: -26px;
+  top: -6px;
+  height: 52px;
+  width: 52px;
+  border-radius: 26px;
+  box-shadow: -1px 2px 5px black;
+}
+
+:local(.middleMid) {
+  display: block;
+  height: 40px;
+  width: 128px;
+}
+
+:local(.left) {
+  height: 40px;
+  width: 20px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  overflow: hidden;
+}
+
+:local(.right) {
+  height: 40px;
+  width: 20px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  overflow: hidden;
+}
